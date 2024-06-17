@@ -12,7 +12,7 @@ jobs:
         image: bitnami/postgresql:latest
         ports:
           - "5432:5432"
-        environment:
+        env:
           - POSTGRES_USER=docker
           - POSTGRES_PASSWORD=docker
           - POSTGRES_DB=gyakuten
