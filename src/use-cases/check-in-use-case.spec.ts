@@ -20,7 +20,7 @@ describe('Check in de um Caso de Uso', () => {
       id: 'gym-01',
       title: 'Academia Teste',
       description: 'Academia de teste',
-      phone: '92999999999',
+      phone: '9299999344',
       latitude: -2.6944395,
       longitude: -59.7063928,
     })
