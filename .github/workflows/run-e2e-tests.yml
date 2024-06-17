@@ -14,7 +14,7 @@ jobs:
           - "5432:5432"
         env:
           POSTGRES_USER: docker
-          POSTGRES_PASSWORD: docker
+          POSTGRES_PASSWORD: gitdocker
           POSTGRES_DB: gyakuten
 
     steps:
