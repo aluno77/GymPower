@@ -12,10 +12,10 @@ jobs:
         image: bitnami/postgresql:latest
         ports:
           - "5432:5432"
-        environment:
-          - POSTGRES_USER=docker
-          - POSTGRES_PASSWORD=docker
-          - POSTGRES_DB=gyakuten
+        env:
+          POSTGRES_USER: docker
+          POSTGRES_PASSWORD: docker
+          POSTGRES_DB: gyakuten
 
     steps:
       - uses: actions/checkout@v4
